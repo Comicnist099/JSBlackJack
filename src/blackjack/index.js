@@ -66,7 +66,6 @@ btnNuevo.addEventListener('click', () => {
     deck = createDeck(tipos, especiales);;
 
     puntosJugador = 0;
-    puntosComputadora = 0;
 
     puntosHTML[0].innerText = 0;
     puntosHTML[1].innerText = 0;
